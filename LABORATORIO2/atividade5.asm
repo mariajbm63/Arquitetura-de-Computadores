@@ -1,4 +1,4 @@
-lw x11, a                      #carregando o caracter '*' no reg 11
+lw x11, a                        #carregando o caracter '*' no reg 11
 
 loop:
 	lb x10, 1025(x0)             #carregada cada byte de 1025 para reg 10
@@ -11,4 +11,4 @@ loop:
 Exit:
 	halt
 
-a: .word 0x2A                  #caracter '*' em hexadecimal
+a: .word 0x2A                    #caracter '*' em hexadecimal
